@@ -18,10 +18,13 @@ let number = 2;
 let string = "ciao a tutti";
 // Questo è un datatype boolean e serve a definire se una variabile è vera o falsa
 let allowed = false;
-
+// questo è un datatype null, e sta ad indicare un valore che viene specifico come nullo, non è zero, rappresenta il nulla (valore)
+let nothing = null
+// Questo è un dataype undefined, che indica una variabile a cui non è stata collegata una definizione
+let information = undefined 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
-*/ 
+*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name = "Caterina";
@@ -42,7 +45,7 @@ console.log(result);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let x = 12;
-
+console.log(typeof x) 
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
